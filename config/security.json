@@ -1,0 +1,24 @@
+{
+  "_comment": "SYNTHETIC FIXTURE - intentionally weakened. Category 5: Security Configuration Regression.",
+  "cors": {
+    "allowedOrigins": ["*"],
+    "allowCredentials": true
+  },
+  "tls": {
+    "rejectUnauthorized": false,
+    "minVersion": "TLSv1"
+  },
+  "cookies": {
+    "secure": false,
+    "httpOnly": false,
+    "sameSite": "None"
+  },
+  "headers": {
+    "contentSecurityPolicy": null,
+    "hsts": false
+  },
+  "debug": {
+    "exposeStackTraces": true,
+    "verboseErrors": true
+  }
+}
